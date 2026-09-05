@@ -1,0 +1,3 @@
+import { Phone } from "lucide-react";
+const logo = "https://primary.jwwb.nl/public/h/d/w/temp-ydhhvzbdczpqubeptngc/secondary-logo-green-high.png?enable=upscale&enable-io=true&height=140";
+export function SiteHeader() { return <header className="site-header"><a className="brand" href="/" aria-label="Tru Delights home"><img src={logo} alt="Tru Delights"/></a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about">Our story</a><a href="/menu">Menu</a><a href="/contact">Visit</a></nav><div className="header-actions"><div className="header-hygiene"><img src="/fhrs-badge-5.svg" alt="Food Hygiene Rating 5"/></div><a className="header-call" href="tel:+447300486228"><Phone size={17}/> <span>Call to order</span></a></div></header>; }
