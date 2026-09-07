@@ -3,4 +3,4 @@
 :HL["/tru-delights/images/logo-white.png","image"]
 :HL["/tru-delights/fhrs-badge-5.svg","image"]
 :HL["/tru-delights/images/cafe-interior.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"about","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"SA9cXgCJJwHHLhgGgOxbG"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"about","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"u4AW0ch8hQniwZ9mf8HQD"}
