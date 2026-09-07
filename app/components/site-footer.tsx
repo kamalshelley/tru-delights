@@ -1,25 +1,27 @@
+import Link from "next/link";
 import { Heart, MapPin, Phone, Clock3 } from "lucide-react";
+import { assetPath } from "@/lib/base-path";
 
 export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-brand-col">
-        <img src="/images/logo.png" alt="Tru Delights Café" className="footer-logo" />
+        <img src={assetPath("/images/logo.png")} alt="Tru Delights Café" className="footer-logo" />
         <p className="footer-tagline">
           Good coffee, lovely company, and freshly made food right in the heart of Moredon.
         </p>
         <div className="footer-hygiene-note">
-          <img src="/fhrs-badge-5.svg" alt="Food Hygiene Rating 5" width={110} />
+          <img src={assetPath("/fhrs-badge-5.svg")} alt="Food Hygiene Rating 5" width={110} />
           <span>Proud to hold a 5-star Food Hygiene Rating</span>
         </div>
       </div>
 
       <div className="footer-links-col">
         <strong>Explore</strong>
-        <a href="/">Home</a>
-        <a href="/about">Our Story</a>
-        <a href="/menu">Full Menu & Prices</a>
-        <a href="/contact">Visit & Contact</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">Our Story</Link>
+        <Link href="/menu">Full Menu & Prices</Link>
+        <Link href="/contact">Visit & Contact</Link>
       </div>
 
       <div className="footer-hours-col">

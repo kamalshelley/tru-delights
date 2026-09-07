@@ -1,6 +1,8 @@
+import Link from "next/link";
 import { ArrowRight, Coffee, Heart, MapPin, Sparkles, Star, Utensils } from "lucide-react";
 import { OpenStatusBadge } from "./components/open-status-badge";
 import { Testimonials } from "./components/testimonials";
+import { assetPath } from "@/lib/base-path";
 
 export default function Home() {
   return (
@@ -19,12 +21,12 @@ export default function Home() {
           </p>
 
           <div className="button-row">
-            <a className="button primary" href="/menu">
+            <Link className="button primary" href="/menu">
               Explore Our Menu <ArrowRight size={18} />
-            </a>
-            <a className="button secondary" href="/contact">
+            </Link>
+            <Link className="button secondary" href="/contact">
               Plan Your Visit <MapPin size={18} />
-            </a>
+            </Link>
           </div>
 
           <OpenStatusBadge />
@@ -33,7 +35,7 @@ export default function Home() {
         <div className="hero-photo-mosaic">
           <div className="mosaic-main">
             <img
-              src="/images/cafe-interior.jpg"
+              src={assetPath("/images/cafe-interior.jpg")}
               alt="The bright, cheerful and welcoming interior of Tru Delights café in Moredon"
             />
             <div className="coffee-stamp">
@@ -44,14 +46,14 @@ export default function Home() {
           <div className="mosaic-secondary">
             <div className="mosaic-thumb top">
               <img
-                src="/images/rave-coffee.jpg"
+                src={assetPath("/images/rave-coffee.jpg")}
                 alt="Freshly poured RAVE flat white with velvety crema"
               />
               <span className="photo-tag">RAVE Espresso</span>
             </div>
             <div className="mosaic-thumb bottom">
               <img
-                src="/images/pipp-doughnuts.jpg"
+                src={assetPath("/images/pipp-doughnuts.jpg")}
                 alt="Artisan glazed Pipp and Co doughnuts served fresh on Fridays"
               />
               <span className="photo-tag">Friday Doughnuts</span>
@@ -87,9 +89,9 @@ export default function Home() {
             Drop in for a morning bacon bap, catch up with friends over a velvety flat white, grab a hot pressed panini on your lunch break, or lose yourself in our cozy book swap nook. Everything is prepared fresh with love and care by Emma and the team.
           </p>
           <div className="intro-actions">
-            <a className="text-link" href="/about">
+            <Link className="text-link" href="/about">
               Read Our Story & Meet the Team <ArrowRight size={17} />
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -101,9 +103,9 @@ export default function Home() {
             <p className="eyebrow">What are you in the mood for?</p>
             <h2>Fresh flavours, made to order.</h2>
           </div>
-          <a className="text-link" href="/menu">
+          <Link className="text-link" href="/menu">
             Browse full menu & prices <ArrowRight size={17} />
-          </a>
+          </Link>
         </div>
 
         <div className="pick-grid">
@@ -115,9 +117,9 @@ export default function Home() {
             <h3>Breakfast</h3>
             <p>Crispy smoked bacon rolls, butcher-made sausage baps, creamy avocado toast, and the hearty Tru Big Breakfast Wrap.</p>
             <div className="card-price-lead">From £3.50</div>
-            <a href="/menu#breakfast" className="card-link">
+            <Link href="/menu#breakfast" className="card-link">
               See Breakfast Menu <ArrowRight size={16} />
-            </a>
+            </Link>
           </article>
 
           <article className="pick-card pick-lunch">
@@ -128,9 +130,9 @@ export default function Home() {
             <h3>Lunch & Toasties</h3>
             <p>Melted brie & cranberry paninis, chicken pesto toasties, sweet chilli wraps, and steaming jacket potatoes with rich toppings.</p>
             <div className="card-price-lead">From £5.25</div>
-            <a href="/menu#lunch" className="card-link">
+            <Link href="/menu#lunch" className="card-link">
               See Lunch Menu <ArrowRight size={16} />
-            </a>
+            </Link>
           </article>
 
           <article className="pick-card pick-drinks">
@@ -141,9 +143,9 @@ export default function Home() {
             <h3>Drinks & Treats</h3>
             <p>Specialty RAVE espresso blends, iced caramel lattes, thick real-fruit smoothies, milkshakes, and Friday Pipp & Co bakes.</p>
             <div className="card-price-lead">From £2.30</div>
-            <a href="/menu#drinks" className="card-link">
+            <Link href="/menu#drinks" className="card-link">
               See Drinks & Treats <ArrowRight size={16} />
-            </a>
+            </Link>
           </article>
         </div>
       </section>
@@ -152,7 +154,7 @@ export default function Home() {
       <section className="doughnut-feature-banner">
         <div className="doughnut-visual">
           <img
-            src="/images/pipp-doughnuts.jpg"
+            src={assetPath("/images/pipp-doughnuts.jpg")}
             alt="Handcrafted fresh Pipp & Co artisan sourdough doughnuts"
           />
           <div className="doughnut-badge">
@@ -174,9 +176,9 @@ export default function Home() {
             <a className="button primary" href="tel:+447300486228">
               Call to Reserve Yours <ArrowRight size={17} />
             </a>
-            <a className="button secondary" href="/contact">
+            <Link className="button secondary" href="/contact">
               Directions to Café
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -195,9 +197,9 @@ export default function Home() {
           <a className="button primary" href="tel:+447300486228">
             Call 07300 486228
           </a>
-          <a className="button secondary" href="/contact">
+          <Link className="button secondary" href="/contact">
             View Map & Hours
-          </a>
+          </Link>
         </div>
       </section>
     </main>

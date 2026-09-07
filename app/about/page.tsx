@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { BookOpen, Coffee, Heart, ShieldCheck, Sparkles, Users } from "lucide-react";
 import { PlatterEnquiryModal } from "../components/platter-modal";
+import { assetPath } from "@/lib/base-path";
 
 export const metadata: Metadata = {
   title: "Our Story",
@@ -45,7 +46,7 @@ export default function AboutPage() {
 
         <div className="story-media">
           <img
-            src="/images/cafe-interior.jpg"
+            src={assetPath("/images/cafe-interior.jpg")}
             alt="Warm and welcoming interior of Tru Delights café on Purton Road"
             className="story-main-img"
           />
