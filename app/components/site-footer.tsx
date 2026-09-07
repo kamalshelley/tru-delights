@@ -6,7 +6,7 @@ export function SiteFooter() {
   return (
     <footer className="site-footer">
       <div className="footer-brand-col">
-        <img src={assetPath("/images/logo.png")} alt="Tru Delights Café" className="footer-logo" />
+        <img src={assetPath("/images/logo-white.png")} alt="Tru Delights Café" className="footer-logo" />
         <p className="footer-tagline">
           Good coffee, lovely company, and freshly made food right in the heart of Moredon.
         </p>
