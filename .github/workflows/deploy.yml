@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Next.js Static Export
         env:
-          NEXT_PUBLIC_BASE_PATH: "/tru-delights-multipage"
+          NEXT_PUBLIC_BASE_PATH: "/tru-delights"
         run: npx next build
 
       - name: Ensure .nojekyll
