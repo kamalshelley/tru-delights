@@ -1,5 +1,5 @@
-:HL["/tru-delights/_next/static/chunks/15.jtnk770kn~.css","style"]
+:HL["/tru-delights/_next/static/chunks/0164~mrb~023h.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap","style"]
-:HL["/tru-delights/images/logo.png","image"]
+:HL["/tru-delights/images/logo-white.png","image"]
 :HL["/tru-delights/fhrs-badge-5.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"ymrcoQsK7rFdcOSSeFfWW"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"contact","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"SA9cXgCJJwHHLhgGgOxbG"}
